@@ -1,0 +1,29 @@
+import collections
+
+DoubleEnded = collections.deque(["one ","Two","three"])
+print (DoubleEnded);
+
+
+print("Adding to the right: ")
+DoubleEnded.append("four")
+print (DoubleEnded);
+
+
+print("Adding to the left: ")
+DoubleEnded.appendleft("zero")
+print (DoubleEnded);
+
+
+print("Removing from the right: ")
+DoubleEnded.pop()
+print (DoubleEnded);
+
+
+print("Removing from the left: ")
+DoubleEnded.popleft()
+print (DoubleEnded);
+
+
+print("Reversing the deque: ")
+DoubleEnded.reverse()
+print (DoubleEnded);
